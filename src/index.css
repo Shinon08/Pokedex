@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.app-container h1{
+  color: rgb(16, 166, 234);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.pokemon-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumb-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0.2rem;
+  margin: 0.3rem;
+  border: 1px solid #efefef;
+  border-radius: 2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.89);
+}
+
+h3{
+  margin-bottom: .2rem;
+}
+
+.thumb-container .number{
+  padding: 0.2rem 0.4rem;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.thumb-container img{
+  width: 120px;
+  height: 120px;
+}
+
+.thumb-container small{
+  text-transform: capitalize;
+}
+
+.rock{
+  background-image: linear-gradient(to top,
+  #c79081 0%, #dfa579 100%);
+}
+
+.ghost{
+  background-image: linear-gradient(to top,
+  #cfd9df 0%, #e2ebf0 100%);
+}
+
+.electric{
+  background-image: linear-gradient(to right,
+  #c6ad30 0%, #ffd500 100%);
+}
+
+.bug{
+  background-image: linear-gradient(to top,
+  #e6b980 0%, #eacda3 100%);
+}
+
+.poison{
+  background-image: linear-gradient(to top,
+  #df89b5 0%, #bfd9fe 100%);
+}
+
+.normal{
+  background-image: linear-gradient(to top,
+  #e3fdf5 0%, #ffc7f5 100%);
+}
+
+.fairy{
+  background-image: linear-gradient(to top,
+  #ff9a9e 0%, #fecfef 99%, #ffdfff 100%);
+}
+
+.fire{
+  background-image: linear-gradient(to top,
+  #f6d365 0%, #fda085 100%);
+}
+
+.grass{
+  background-image: linear-gradient(to top,
+  #d4fc79 0%, #96e6a1 100%);
+}
+
+.water{
+  background-image: linear-gradient(to top,
+  #89f7fe 0%, #006aff 100%);
+}
+
+.groun{
+  background-image: linear-gradient(to top,
+  #772f1a 0%, #f2a65a 100%);
+}
+
+.detail-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.detail-wrapper button{
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: .2rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+
+button:hover{
+  background-color: rgb(107, 0, 107);
+}
